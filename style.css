@@ -148,6 +148,25 @@ body {
   color: #777;
 }
 
+.btn-tg {
+  background: #229ED9; /* Telegram blue */
+  color: #ffffff;
+}
+
+.btn-tg:hover {
+  filter: brightness(1.07);
+}
+
+.btn.btn-tg {
+  gap: 10px;
+}
+
+.btn-tg::before {
+  content: "✈️";
+  font-size: 16px;
+  line-height: 1;
+}
+
 /* ===== MOBILE ===== */
 @media (max-width: 900px) {
   .hero {
